@@ -64,7 +64,7 @@ def get_yamls() -> tuple[list, dict]:
     :return: A tuple containing a list of configuration names and a dictionary of configuration data.
     :rtype: tuple[list, dict]
     """
-    path = r"/home/sonata/local_git/SPIKES_private/Configuration"
+    path = r"/home/sonata/SPIKES/Configuration"
     config_dict = {}
 
     for file_name in os.listdir(path):
