@@ -23,4 +23,4 @@
    ```bash
    deactivate
 
-5. Edit Path to .yaml configuration files
+5. Edit Path to .yaml configuration files in backend.py (inside get_yamls() function)
