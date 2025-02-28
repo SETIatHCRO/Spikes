@@ -443,7 +443,7 @@ def value_parser(num: str, unit: str='Hz') -> str:
 
     return printable_num
 
-def make_dir_daily(path: str = r"/home/sonata/local_git/SPIKES_private/Measurements") -> str:
+def make_dir_daily(path: str = r"/home/sonata/SPIKES/Measurements") -> str:
     """Creates a daily directory for saving all measurement data of that date if it does not already exist.
 
     :return: daily directory in which to save the measurements.
