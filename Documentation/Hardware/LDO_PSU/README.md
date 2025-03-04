@@ -9,3 +9,4 @@ The Device was designed in KiCAD 8.0.6, all necessary design files can be found 
 Note: As of this Version the polarity of the Status LED is flipped, please take care when wiring. 
 
 <img src="Images/LDO_PSU_real.png" alt="SPIKES on Desktop" style="width:250;"/>
+<img src="Images/LDO_PSU_pcb.png" alt="SPIKES on Desktop" style="width:250;"/>
