@@ -5,7 +5,7 @@ The Enclosure is designed to be mounted on a standard tripod mount, and has a 1/
 
 The Amplifier is powered via a 6V Linear Voltage Regulator, which has to be supplied by a 12V bias in the outgoing coaxial cable.
 
-The Device was designed in AutoCAD Inventor 2024, all necessary design files can be found in this directory.
+The Device was designed in AutoCAD Inventor 2025, all necessary design files can be found in this directory.
 
 The Enclosure is designed to be 3D printed in SLS or SLA processes.
 
