@@ -6,7 +6,7 @@ The setup consists of a spectrum analyzer, a computer running the SPIKES applica
 
 The system is located in Lab 2 at HCRO, in this tutorial only local operation is covered. For more details on remote operation please refer to the documentation.
 
-While the data does not exceed the Github limit the Measurement data should always be updated using git push to this repository (see Git_Push_Guide in the Documentation).
+While it does not exceed the Github limit Measurement data should always be updated using git push to this repository (see Git_Push_Guide in the Documentation).
 
 ### Running the Application
 To start the SPIKES application, log in to the Sonata account, navigate to the lower left side of the screen and click on the `SPIKES` icon:
