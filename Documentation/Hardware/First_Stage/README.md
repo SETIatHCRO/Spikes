@@ -9,5 +9,5 @@ The Device was designed in AutoCAD Inventor 2024, all necessary design files can
 
 The Enclosure is designed to be 3D printed in SLS or SLA processes.
 
-<img src="Images/First-Stage_in_shielded_room.png" alt="In Shielded Room" style="width:250;"/>
-<img src="Images/First-Stage_open.png" alt="First Stage Open" style="width:250;"/>
+<img src="Images/First-Stage_in_shielded_room.jpg" alt="In Shielded Room" style="width:250;"/>
+<img src="Images/First-Stage_open.jpg" alt="First Stage Open" style="width:250;"/>
