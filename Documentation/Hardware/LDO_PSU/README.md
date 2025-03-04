@@ -1,6 +1,6 @@
 ### Linear Voltage Regulator for the Mini-Circuits ZX60-14LN-S+ Amplifier
 
-This Regulator PCB will take input Voltage of 8.5V to 21V and step it down to a stable 6V. 
+This Regulator PCB will take an input Voltage of 8.5V to 21V and step it down to a stable 6V. 
 
 The maximum Output Current is 1A.
 
