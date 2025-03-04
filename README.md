@@ -128,4 +128,4 @@ for example:
 
 ### Setup Schematic
 
-![Setup Schematic](Documentation/Images/Dark_setup_schematics_with_mini-c.png)
+![Setup Schematic](Documentation/Images/Dark_setup_schematics_with_mini-c_github.png)
