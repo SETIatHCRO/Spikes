@@ -1994,7 +1994,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 119.38) (xy 191.77 127)
+			(xy 191.77 119.38) (xy 191.77 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2034,13 +2034,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 124.46) (xy 196.85 124.46)
+			(xy 191.77 132.08) (xy 191.77 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c9028fa-5d98-4212-9937-ea8f738cbd48")
+		(uuid "33756f9c-83c2-4779-93bf-617734e6b2fd")
 	)
 	(wire
 		(pts
@@ -2124,16 +2124,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 121.92) (xy 194.31 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6b51916-f935-4b72-99b9-d1892171d14c")
-	)
-	(wire
-		(pts
 			(xy 105.41 76.2) (xy 101.6 76.2)
 		)
 		(stroke
@@ -2151,16 +2141,6 @@
 			(type default)
 		)
 		(uuid "cdf19c91-e8f5-49a8-b61c-b0f4763e8175")
-	)
-	(wire
-		(pts
-			(xy 191.77 127) (xy 196.85 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d513b6e8-bd84-45aa-8aab-e905d5e5a7db")
 	)
 	(wire
 		(pts
@@ -2550,7 +2530,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.17 127 90)
+		(at 212.09 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2559,7 +2539,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f219266-b6cd-4565-83b6-47625ba46c04")
 		(property "Reference" "#PWR07"
-			(at 223.52 127 0)
+			(at 218.44 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +2548,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 126.9999 90)
+			(at 215.9 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2577,7 +2557,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 127 0)
+			(at 212.09 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +2566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 127 0)
+			(at 212.09 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2595,7 +2575,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 127 0)
+			(at 212.09 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2749,7 +2729,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 121.92 180)
+		(at 191.77 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2758,7 +2738,7 @@
 		(fields_autoplaced yes)
 		(uuid "45c5449b-38c5-4dd3-9971-61a2f2910276")
 		(property "Reference" "#PWR05"
-			(at 194.31 115.57 0)
+			(at 191.77 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,16 +2747,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 120.6499 0)
+			(at 194.31 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 121.92 0)
+			(at 191.77 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,7 +2765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 121.92 0)
+			(at 191.77 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,7 +2774,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 121.92 0)
+			(at 191.77 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,7 +2862,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.17 124.46 90)
+		(at 212.09 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2891,7 +2871,7 @@
 		(fields_autoplaced yes)
 		(uuid "578a06a0-9b09-4f24-8ce0-39a2c699cb49")
 		(property "Reference" "#PWR08"
-			(at 223.52 124.46 0)
+			(at 218.44 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2900,7 +2880,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 124.4599 90)
+			(at 215.9 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2909,7 +2889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 124.46 0)
+			(at 212.09 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2918,7 +2898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 124.46 0)
+			(at 212.09 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2927,7 +2907,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 124.46 0)
+			(at 212.09 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3081,7 +3061,7 @@
 	)
 	(symbol
 		(lib_id "43650-0211:43650-0211")
-		(at 217.17 127 180)
+		(at 212.09 132.08 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3090,7 +3070,7 @@
 		(fields_autoplaced yes)
 		(uuid "7aa04271-a6e4-44d2-b5b9-63a86794ce4d")
 		(property "Reference" "J3"
-			(at 207.01 116.84 0)
+			(at 201.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3098,7 +3078,7 @@
 			)
 		)
 		(property "Value" "Status LED"
-			(at 207.01 119.38 0)
+			(at 201.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3106,7 +3086,7 @@
 			)
 		)
 		(property "Footprint" "Molex_Microfit_2Pin:43650-02YY_091011"
-			(at 200.66 32.08 0)
+			(at 195.58 37.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3116,7 +3096,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500209_sd.pdf"
-			(at 200.66 -67.92 0)
+			(at 195.58 -62.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3126,7 +3106,7 @@
 			)
 		)
 		(property "Description" "Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Single Row, 2 Circuits, with PCB Press-fit Metal Retention Clip, Glow-Wire Capable, Black, Tape and Reel"
-			(at 217.17 127 0)
+			(at 212.09 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3135,7 +3115,7 @@
 			)
 		)
 		(property "Height" "5.57"
-			(at 200.66 -267.92 0)
+			(at 195.58 -262.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3145,7 +3125,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-43650-0211"
-			(at 200.66 -367.92 0)
+			(at 195.58 -362.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3155,7 +3135,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43650-0211?qs=z57USrEQgt0F0sS1hGS9Bw%3D%3D"
-			(at 200.66 -467.92 0)
+			(at 195.58 -462.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,7 +3145,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 200.66 -567.92 0)
+			(at 195.58 -562.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3175,7 +3155,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "43650-0211"
-			(at 200.66 -667.92 0)
+			(at 195.58 -662.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
