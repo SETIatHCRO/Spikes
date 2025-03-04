@@ -10,7 +10,7 @@ The system is located in Lab 2 at HCRO, in this tutorial only local operation is
 ### Running the Application
 To start the SPIKES application, log in to the Sonata account, navigate to the lower left side of the screen and click on the `SPIKES` icon:
 
-<img src="Documentation/Images/Spikes_on_desktop.png" alt="SPIKES on Desktop" style="width:200;"/>
+<img src="Documentation/Images/Spikes_on_desktop.png" alt="SPIKES on Desktop" style="width:150;"/>
 
 Or for the computationally adept run the following command in your terminal:
 
@@ -24,7 +24,7 @@ You can create a configuration file for the desired measurement or reuse an exis
 
 To access the configuration files, click on the `Configuration` icon on the lower left side of the screen:
 
-<img src="Configuration_on_desktop.png" alt="Configuration Button" style="width:200;"/>
+<img src="Documentation/Images/Configuration_on_desktop.png" alt="Configuration Button" style="width:150;"/>
 
 Again, for the experienced (or remote) user, the configuration files can be accessed directly from the terminal:
 
@@ -97,7 +97,7 @@ It is still possible however to stop the measurement manually by pressing the ES
 
 To access the measurement data, click on the `Measurements` icon on the lower left side of the screen:
 
-<img src="Measurements_on_desktop.png" alt="Measurements Button" style="width:200;"/>
+<img src="Documentation/Images/Measurements_on_desktop.png" alt="Measurements Button" style="width:150;"/>
 
 Or for the terminal savvy:
 
@@ -128,4 +128,4 @@ for example:
 
 ### Setup Schematic
 
-![Setup Schematic](Dark_setup_schematics_with_mini-c.png)
+![Setup Schematic](Documentation/Images/Dark_setup_schematics_with_mini-c.png)
