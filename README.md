@@ -10,7 +10,7 @@ The system is located in Lab 2 at HCRO, in this tutorial only local operation is
 ### Running the Application
 To start the SPIKES application, log in to the Sonata account, navigate to the lower left side of the screen and click on the `SPIKES` icon:
 
-<img src="Spikes_on_desktop.png" alt="SPIKES on Desktop" style="width:200;"/>
+<img src="Documentation/Images/Spikes_on_desktop.png" alt="SPIKES on Desktop" style="width:200;"/>
 
 Or for the computationally adept run the following command in your terminal:
 
