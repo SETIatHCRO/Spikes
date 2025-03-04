@@ -8,5 +8,5 @@ The Device was designed in KiCAD 8.0.6, all necessary design files can be found 
 
 Note: As of this Version the polarity of the Status LED is flipped, please take care when wiring. 
 
-<img src="Images/LDO_PSU_real.png" alt="Linear Voltage Regulator" style="width:250;"/>
-<img src="LDO_PSU_Schematic" alt="Schematic" style="width:250;"/>
+<img src="Images/Linear_Voltage_Regulator_real.png" alt="Linear Voltage Regulator" style="width:250;"/>
+<img src="Images/Linear_Voltage_Regulator_Schematic.png" alt="Schematic" style="width:250;"/>
