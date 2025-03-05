@@ -1,0 +1,103 @@
+\documentclass{article}
+
+\usepackage[a4paper,top=.5cm,bottom=1.5cm,left=2.5cm,right=2.5cm,marginparwidth=1.75cm]{geometry}
+\usepackage[colorlinks=tsrue,linkcolor=blue,urlcolor=blue,citecolor=blue]{hyperref}
+\usepackage{amsmath}
+\usepackage{siunitx}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{url}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{datatool, filecontents}
+\usepackage[english]{babel}
+
+\titleformat{\section}{\bfseries\large}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection}{1em}{}
+
+\bibliographystyle{plain}
+\hypersetup{hidelinks}
+\setlength{\parindent}{0pt}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\graphicspath{{../Images/}}
+
+\lstset{
+  language=bash,              
+  backgroundcolor=\color{gray!20},  
+  basicstyle=\ttfamily\small, 
+  keywordstyle=\color{blue},  
+  commentstyle=\color{gray},  
+  stringstyle=\color{red},    
+  breaklines=true,            
+}
+
+\date{}
+
+\title{\Large{Remote Access Guide}}
+\author{\normalsize{Author: Paul Linke}}
+\begin{document}
+\maketitle
+\subsection*{Abstract}
+
+This document contains the necessary steps to access the computer running the SPIKES application via SSH. It allows the user to access the lab computer from within the local network or from outside the network via VPN.
+
+\subsection*{Running SPIKES}
+
+The first step is connecting to the computer, if you are on windows, install WSL (Windows Subsystem for Linux) and use a linux distribution of your choice (you will have a command line interface ready after installing and creating a user). 
+
+If you are on linux or mac open a terminal and type the following command:
+
+\begin{lstlisting}
+ssh -Y sonata@10.1.23.153
+# Be sure to use -Y for the GUI to work properly
+\end{lstlisting}
+
+After entering the password you will be connected to the computer. You can now run the application by typing the following command:
+
+\begin{lstlisting}
+spikes
+\end{lstlisting}
+
+
+\subsection*{Browsing the Measurements}
+In order to browse the measurements you will navigate to the Measurements directory thusly:
+
+\begin{lstlisting}
+cd /home/sonata/SPIKES/Measurements
+\end{lstlisting}
+
+As described in the SPIKES README file, the folder structure is organized as follows:
+
+\begin{lstlisting}
+Measurements
++-- date[YYYY-MM-DD]
+|   +-- time[HHhMM]-[config_name]
+|   |   +-- data
+|   |   |   +-- config file[config_name].yml
+|   |   |   +-- trace_n.csv
+|   |   +-- imgs_legend
+|   |   |   +-- combined_trace.png
+|   |   |   +-- trace_n.png
+|   |   +-- imgs_nolegend
+|   |       +-- combined_trace.png
+|   |       +-- trace_n.png
+\end{lstlisting}
+
+To get measurement data from the computer to your local machine you can use the scp (Secure Copy) command:
+
+\begin{lstlisting}
+scp -r sonata@10.1.23.153:/path/to/remote/directory /path/to/local/destination
+\end{lstlisting}
+
+this will copy the directory from the remote computer to your local machine.\\
+
+Example:
+
+\begin{lstlisting}
+scp -r sonata@10.1.23.153:/home/sonata/SPIKES/Measurements/2025-02-25/18h57-fast_track /home/YourUserName
+\end{lstlisting}
+
+\end{document}
