@@ -2,6 +2,8 @@
 
 This guide walks through the necessary steps to access the lab computer running the SPIKES application via SSH. It allows the user to access the lab computer from within the local network of HCRO or from outside the network via VPN.
 
+Note: This method is absolutely viable to perform measurements and browse the data, however, it is easier and an overall more enjoyable experience to use the SPIKES application on the local machine. 
+
 ### Running SPIKES
 
 The first step is connecting to the computer, if you are on windows, activate WSL (Windows Subsystem for Linux) and use install a linux distribution of your choice via the microsoft store (you will have a command line interface ready after installing and creating a user). 
