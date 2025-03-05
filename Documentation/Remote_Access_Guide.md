@@ -98,3 +98,5 @@ total_traces:     5         # integer or "cont" for continuous operation
 ```
 
 After saving the edited file the configuration is ready to be used within the SPIKES application.
+
+Please refer to the Git_Push_Guide for a reminder to always push your changes to the repository.
