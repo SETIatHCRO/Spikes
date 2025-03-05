@@ -81,7 +81,7 @@ nano my_splendid_config.yml
 You will be rewarded with the following sight:
 
 ```yaml
-### GNU nano x.x ############### my_splendid_config.yml ########                                               
+### GNU nano x.x ############### my_splendid_config.yml ########
 sweep_points:     1001      # number of points
 start_freq:       300e6     # Hz
 stop_freq:        10e9      # Hz
