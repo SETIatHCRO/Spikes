@@ -1,3 +1,4 @@
+## Remote Access Guide
 ### Abstract
 
 This guide walks through the necessary steps to access the lab computer running the SPIKES application via SSH. It allows the user to access the lab computer from within the local network of HCRO or from outside the network via VPN.
