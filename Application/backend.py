@@ -64,7 +64,7 @@ def get_yamls() -> tuple[list, dict]:
     :return: A tuple containing a list of configuration names and a dictionary of configuration data.
     :rtype: tuple[list, dict]
     """
-    path = r"/home/sonata/SPIKES/Configuration"
+    path = r"../Configuration"
     config_dict = {}
 
     for file_name in os.listdir(path):
@@ -443,7 +443,7 @@ def value_parser(num: str, unit: str='Hz') -> str:
 
     return printable_num
 
-def make_dir_daily(path: str = r"/home/sonata/SPIKES/Measurements") -> str:
+def make_dir_daily(path: str = r"../Measurements") -> str:
     """Creates a daily directory for saving all measurement data of that date if it does not already exist.
 
     :return: daily directory in which to save the measurements.

@@ -7,6 +7,7 @@ Further details about the application can be found in the Github repository.
 import customtkinter as ctk
 import frames
 import styling_options
+import platform
 
 class App(ctk.CTk):
     """The main Custom Tkinter application class for SPIKES 
@@ -38,7 +39,15 @@ class App(ctk.CTk):
         self.initial_height = self.winfo_height()
 
         self.bind("<Configure>", self.on_resize)
-        self.wm_attributes('-zoomed', True)
+        
+        if platform.system() == "Linux" or platform.system() == "Darwin":
+            self.wm_attributes('-zoomed', True)
+        elif platform.system() == "Windows":
+            ctk.deactivate_automatic_dpi_awareness()
+            self.geometry("2560x1466+-12+-2")
+        else:
+            print("Unknown OS")
+        
         self.protocol("WM_DELETE_WINDOW", self.on_close)
         
     def on_resize(self, event) -> None:

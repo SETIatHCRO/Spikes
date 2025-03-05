@@ -2,6 +2,7 @@
 """
 import customtkinter as ctk
 import threading
+import platform
 
 import backend
 import plotting
@@ -1084,7 +1085,8 @@ class ProceedDialog(ctk.CTkToplevel):
         self.geometry("500x150")
         self.resizable(False, False)
         self.configure(fg_color=styling_options.color_scheme['face_color'])
-        self.wm_attributes("-type", "dialog")
+        if platform.system() != "Windows":
+            self.wm_attributes("-type", "dialog")
     
         self.attributes("-topmost", True)
         self.focus_force()
@@ -1170,7 +1172,9 @@ class SaveDialog(ctk.CTkToplevel):
         self.geometry("500x250")
         self.resizable(False, False)
         self.configure(fg_color=styling_options.color_scheme['face_color'])
-        self.wm_attributes("-type", "dialog")
+        if platform.system() != "Windows":
+            self.wm_attributes("-type", "dialog")
+            
         self.attributes("-topmost", True)
         self.focus_force()
         self.transient(parent)
