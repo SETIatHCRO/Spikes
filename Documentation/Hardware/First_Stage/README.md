@@ -7,7 +7,7 @@ The Amplifier is powered via a 6V Linear Voltage Regulator, which has to be supp
 
 The Device was designed in AutoCAD Inventor 2025, all necessary design files can be found in this directory.
 
-The Enclosure is designed to be 3D printed in SLS or SLA processes.
+The Enclosure is designed to be 3D printed, the step files in the directory are ready to print (however the current enclosures where printed with sla and sls processes and fdm is not yet tested).
 
 <img src="Images/First-Stage_in_shielded_room.jpg" alt="In Shielded Room" style="width:250;"/>
 <img src="Images/First-Stage_open.jpg" alt="First Stage Open" style="width:250;"/>
