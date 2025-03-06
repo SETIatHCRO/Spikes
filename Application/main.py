@@ -40,11 +40,13 @@ class App(ctk.CTk):
 
         self.bind("<Configure>", self.on_resize)
         
-        if platform.system() == "Linux" or platform.system() == "Darwin":
+        if platform.system() == "Linux":
             self.wm_attributes('-zoomed', True)
+        if platform.system() == "Darwin":
+            ctk.deactivate_automatic_dpi_awareness()
         elif platform.system() == "Windows":
             ctk.deactivate_automatic_dpi_awareness()
-            self.geometry("2560x1466+-12+-2")
+            #self.geometry("2560x1466+-12+-2")
         else:
             print("Unknown OS")
         

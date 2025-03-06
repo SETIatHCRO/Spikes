@@ -64,15 +64,14 @@ def get_yamls() -> tuple[list, dict]:
     :return: A tuple containing a list of configuration names and a dictionary of configuration data.
     :rtype: tuple[list, dict]
     """
+    
+    main_py_dir = os.path.dirname(os.path.abspath(__file__))
+
     try:
-        path = r"./Configuration"
+        path = os.path.dirname(main_py_dir) + r"/Configuration"
         os.listdir(path)
     except:
-        try:
-            path = r"../Configuration"
-            os.listdir(path)
-        except:
-            raise FileNotFoundError("Configuration directory not found.")
+        raise FileNotFoundError("File structure corrupted. Configuration directory not found.")
         
     config_dict = {}
 
@@ -458,15 +457,13 @@ def make_dir_daily() -> str:
     :return: date and time object.
     :rtype: datetime
     """
+    main_py_dir = os.path.dirname(os.path.abspath(__file__))
+
     try:
-        path = r"./Measurements"
+        path = os.path.dirname(main_py_dir) + r"/Measurements"
         os.listdir(path)
     except:
-        try:
-            path = r"../Measurements"
-            os.listdir(path)
-        except:
-            raise FileNotFoundError("Configuration directory not found.")
+        raise FileNotFoundError("File structure corrupted. Measurements directory not found.")
     
     date_time = datetime.now()
 
