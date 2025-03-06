@@ -64,7 +64,16 @@ def get_yamls() -> tuple[list, dict]:
     :return: A tuple containing a list of configuration names and a dictionary of configuration data.
     :rtype: tuple[list, dict]
     """
-    path = r"./Configuration"
+    try:
+        path = r"./Configuration"
+        os.listdir(path)
+    except:
+        try:
+            path = r"../Configuration"
+            os.listdir(path)
+        except:
+            raise FileNotFoundError("Configuration directory not found.")
+        
     config_dict = {}
 
     for file_name in os.listdir(path):
@@ -443,15 +452,22 @@ def value_parser(num: str, unit: str='Hz') -> str:
 
     return printable_num
 
-def make_dir_daily(path: str = r"./Measurements") -> str:
+def make_dir_daily() -> str:
     """Creates a daily directory for saving all measurement data of that date if it does not already exist.
-
-    :return: daily directory in which to save the measurements.
-    :rtype: str
     
     :return: date and time object.
     :rtype: datetime
     """
+    try:
+        path = r"./Measurements"
+        os.listdir(path)
+    except:
+        try:
+            path = r"../Measurements"
+            os.listdir(path)
+        except:
+            raise FileNotFoundError("Configuration directory not found.")
+    
     date_time = datetime.now()
 
     date = date_time.strftime("%Y-%m-%d")
