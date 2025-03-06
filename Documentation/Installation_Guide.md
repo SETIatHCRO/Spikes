@@ -107,4 +107,4 @@ This Guide is tested on Windows 11 and Ubuntu 24.04 LTS.
     ```bash
     path\to\Cloned_Directory\.venv\scripts\python.exe path\to\Cloned_Directory\Application\main.py
 
-Note: there are countless ways of creating short commands, desktop links and start menu shortcuts on all operating systems, please choose for yourself if and how you want to implement these.
+Note: there are countless ways of creating bash scripts, desktop links and start menu shortcuts to ease access to the app on all operating systems, please choose for yourself if and how you want to implement these.
