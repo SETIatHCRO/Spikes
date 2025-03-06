@@ -42,7 +42,7 @@ class App(ctk.CTk):
         
         if platform.system() == "Linux":
             self.wm_attributes('-zoomed', True)
-        if platform.system() == "Darwin":
+        elif platform.system() == "Darwin":
             ctk.deactivate_automatic_dpi_awareness()
         elif platform.system() == "Windows":
             ctk.deactivate_automatic_dpi_awareness()
