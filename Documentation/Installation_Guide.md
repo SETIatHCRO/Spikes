@@ -25,9 +25,15 @@ This Guide is tested on Windows 11 and Ubuntu 24.04 LTS.
     ```
 
 2. Clone the repository
-   
+    
+    if you have an SSH key set up with GitHub, you can clone the repository using SSH:
     ```bash
     git clone git@github.com:SETIatHCRO/Spikes.git
+    ```
+    
+    else you can clone the repository using HTTPS:
+    ```bash
+    git clone https://github.com/SETIatHCRO/Spikes.git
     ```
 
     and navigate into the SPIKES directory
