@@ -1,4 +1,4 @@
-## SPIKES - Spectrum Plotter and Interface Kit for Emissions Scanning
+## SPIKES - Spectrum Plotter and Interface Kit for EMI Scanning
 
 SPIKES is a test setup to capture the emission profiles of potential RFI emitters at the Hat Creek Radio Observatory. 
 
