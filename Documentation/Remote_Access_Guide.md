@@ -12,7 +12,7 @@ The first step is connecting to the computer, if you are on windows, activate WS
 If you are on linux or mac open a terminal and type the following command:
 
 ```bash
-ssh -Y sonata@10.1.23.153
+ssh -Y sonata@rfi-laptop1
 # Be sure to use -Y for the GUI to work properly
 ```
 
@@ -57,7 +57,7 @@ scp -r user@address:/path/to/remote/directory /path/to/local/destination
 Example:
 
 ```bash
-scp -r sonata@10.1.23.153: ~/SPIKES/Measurements /home/YourUserName/Somewhere
+scp -r sonata@rfi-laptop1.hcro.org: ~/SPIKES/Measurements /home/YourUserName/Somewhere
 # This will copy the whole Measurements directory to Somewhere on your local machine
 ```
 
