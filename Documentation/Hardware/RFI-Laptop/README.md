@@ -2,7 +2,7 @@
 
 Info about the dedicated Laptop for Spikes in Lab 2
 
-#### Configuration
+#### General
 
   OS: Ubuntu 24.04 LTS
 
