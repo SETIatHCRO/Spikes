@@ -6,7 +6,8 @@ Info about the dedicated Laptop for Spikes in Lab 2
 
   Hostname: RFI-Laptop1.hcro.org
 
-  BIOS-Settings: `Security -> I/O Port Access` Bluetooth OFF, WiFi OFF
+  BIOS-Settings: `Security -> I/O Port Access` Bluetooth: OFF, WiFi: OFF
+  
 
 #### Hardware
 
