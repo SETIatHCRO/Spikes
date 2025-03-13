@@ -154,9 +154,8 @@ class SpectrumControl(GPIBDevice):
             elif float(sweep_time) > 60*60 and float(sweep_time) < 4000:
                 error_message.append("Sweep time exceeds 60 minutes.\n         Please note that it is not possible to interrupt without accessing the Spectrum Analyzer.")
             elif float(sweep_time) == 4000:
-                error_message = "Sweep time is at (or above) maximum value, proceeding would lead to crash.\n         Reduce frequency range or increase bandwidth."
-                return float(sweep_time), error_message, True
-                
+                error_message = ["Sweep time is at (or above) maximum value, proceeding would lead to crash.\n           Reduce frequency range or increase bandwidth."]
+                                                 
         except socket_error as e:
             error_message.append("Check ethernet connection to GPIB-Controller")
         
