@@ -114,3 +114,49 @@ This Guide is tested on Windows 11 and Ubuntu 24.04 LTS.
     path\to\Cloned_Directory\.venv\scripts\python.exe path\to\Cloned_Directory\Application\main.py
 
 Note: there are countless ways of creating bash scripts, desktop links and start menu shortcuts to ease access to the app on all operating systems, please choose for yourself if and how you want to implement these.
+
+#### One useful example for making a globally accessible command by creating a bash script (Linux, OSX):
+
+
+1. In any directory (the file will be moved later), create a file called `shortcut.sh`:
+
+    ```bash
+    touch shortcut.sh
+    ```
+
+2. Open the file in a text editor:
+
+    ```bash
+    nano shortcut.sh
+    ```
+
+3. Add the previously used command to start the application (edit to match your paths):
+
+    ```bash
+    ### GNU nano x.x ############### shortcut.sh ########
+    path/to/Cloned_Directory/.venv/bin/python3.13 path/to/Cloned_Directory/Application/main.py
+    ```
+
+    do not forget to save before exiting.
+
+4. Make the file executable:
+
+    ```bash
+    chmod +x shortcut.sh
+    ```
+
+5. Move the file to a directory that is in your PATH (this will likely require sudo rights):
+
+    ```bash
+    sudo mv shortcut.sh /usr/local/bin/spikes
+    ```
+
+    /usr/local/bin/*spikes* 
+    
+    *spikes* will be the command to start the application, you can use whatever name you like here. 
+
+6. You can now start the application from any directory:
+
+    ```bash
+    spikes
+    ```

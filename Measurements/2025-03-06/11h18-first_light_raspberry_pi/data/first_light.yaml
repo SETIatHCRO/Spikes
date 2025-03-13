@@ -1,0 +1,8 @@
+attenuation: 0
+mode: HIGH-RES
+num_aver: 1
+res_bw: 100e3
+start_freq: 500e6
+stop_freq: 12e9
+sweep_points: 1001
+vid_bw: 1e3
