@@ -4,7 +4,11 @@ Info about the dedicated Laptop for Spikes in Lab 2
 
 #### Configuration
 
+  OS: Ubuntu 24.04 LTS
+
   Hostname: RFI-Laptop1.hcro.org
+
+  Static-IP: 192.182.123.54
 
   BIOS-Settings: `Security -> I/O Port Access` Bluetooth: OFF, WiFi: OFF
   
