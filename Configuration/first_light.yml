@@ -7,7 +7,3 @@ attenuation:      0         # dB
 
 mode:             HIGH-RES  # Mode of operation: HIGH-RES or FAST
 num_aver:         1         # number of traces
-<<<<<<< HEAD
-=======
-
->>>>>>> 4db927c3425144b6115f810317797c13be3f0623
