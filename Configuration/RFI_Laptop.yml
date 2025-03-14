@@ -1,0 +1,9 @@
+sweep_points:     1001      # number of points
+start_freq:       300e6     # Hz
+stop_freq:        6e9       # Hz
+res_bw:           3e3       # Hz
+vid_bw:           10e3      # Hz
+attenuation:      0         # dB 
+
+mode:             HIGH-RES  # Mode of operation: HIGH-RES or FAST
+num_aver:         1         # number of traces
