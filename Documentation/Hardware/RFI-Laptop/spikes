@@ -1,0 +1,23 @@
+#!/bin/bash
+
+PROJECT_DIR="$HOME/Spikes/"
+
+cd "$PROJECT_DIR" || { echo "Project directory not found"; exit 1; }
+
+if [[ -d "venv" ]]; then
+    source venv/bin/activate
+elif [[ -d ".venv" ]]; then
+    source .venv/bin/activate
+else
+    echo "No virtual environment found."
+    exit 1
+fi
+
+cd "Application"
+
+if [[ -f "main.py" ]]; then
+    python main.py
+else
+    echo "main.py not found."
+    exit 1
+fi

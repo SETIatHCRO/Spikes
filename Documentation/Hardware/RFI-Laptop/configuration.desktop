@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Configuration
+Comment=Open Configuration
+Exec=nautilus /home/sonata/Spikes/Configuration
+Icon=/home/sonata/Pictures/configuration-icon.png
+Terminal=false
+Categories=Utility;

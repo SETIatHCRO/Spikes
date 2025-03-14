@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=SPIKES
+Comment=Run the Spikes Python App
+Exec=bash -c "$HOME/bin/spikes"
+Icon=utilities-terminal
+Terminal=false
+Icon=/home/sonata/Pictures/spikes-icon.png
+Categories=Development;

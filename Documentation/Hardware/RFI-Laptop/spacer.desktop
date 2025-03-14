@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=
+Comment=Empty space in dock
+Exec=sh -c "sleep infinity"
+Icon=/home/sonata/Pictures/empty-icon.png
+Terminal=false
+Categories=Utility;
+

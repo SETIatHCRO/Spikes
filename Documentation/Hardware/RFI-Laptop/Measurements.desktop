@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Measurements
+Comment=Open Measurements Folder
+Exec=nautilus /home/sonata/Spikes/Measurements
+Terminal=false
+Icon=/home/sonata/Pictures/measurement-icon.png
+Categories=Utility;
